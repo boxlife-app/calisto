@@ -1,0 +1,13 @@
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.belarus {
+    width: 20px;
+    height: 12px;
+
+    border-radius: 2px;
+}

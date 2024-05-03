@@ -1,0 +1,71 @@
+{
+  "name": "@boxlife/calisto",
+  "version": "1.0.0",
+  "main": "./dist/main.js",
+  "module": "./dist/main.js",
+  "devDependencies": {
+    "@types/deepmerge": "^2.2.0",
+    "@types/node": "^20.11.16",
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta",
+    "@types/stylis": "^4.2.5",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "latest",
+    "bun": "^1.0.26",
+    "bun-types": "^1.0.25",
+    "eslint": "^8.56.0",
+    "eslint-kit": "^10.11.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "glob": "^10.3.10",
+    "husky": "^9.0.10",
+    "postcss": "latest",
+    "prettier": "^3.2.5",
+    "react": "beta",
+    "react-dom": "beta",
+    "sass": "^1.70.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.2"
+  },
+  "peerDependencies": {
+    "@emotion/cache": "^11.11.0",
+    "deepmerge": "^4.3.1",
+    "nanostores": "^0.10.3",
+    "stylis": "^4.3.2",
+    "react-slotify": "^0.2.2",
+    "@radix-ui/colors": "^3.0.0",
+    "@emotion/css": "^11.11.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@iconify/react": "^4.1.1",
+    "@nanostores/react": "^0.7.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.5",
+    "radix-ui": "^1.0.1",
+    "sonner": "^1.4.0"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/main.js",
+      "require": "./dist/main.cjs"
+    }
+  },
+  "files": ["dist"],
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --p ./tsconfig.build.json && vite build",
+    "test": "bun ./src/index.ts",
+    "lint": "eslint \"src/**/*.{js,mjs,cjs,ts,mts,jsx,tsx}\"",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "lint:fix": "eslint \"src/**/*.{js,mjs,cjs,ts,mts,jsx,tsx}\" --fix"
+  },
+  "type": "module",
+  "types": "./dist/main.d.ts"
+}
