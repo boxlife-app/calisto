@@ -18,7 +18,7 @@ export default defineConfig({
     
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present. Made in <img class="belarus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg/1200px-Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg.png"/> by Mikita Pitunou',
+      copyright: 'Copyright © 2024-present. Mikita Pitunou',
     },
 
     sidebar: [
