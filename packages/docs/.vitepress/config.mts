@@ -4,14 +4,22 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Calisto UI-Kit",
   description: "A UI-Kit for normal peoples",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
     siteTitle: "Calisto",
+
+    algolia: {
+      appId: 'E2VDGRUQY3',
+      apiKey: '8dfd0f1aa677d735b609cb1d7eca1b25',
+      indexName: 'farfetched',
+    },
     
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Recipes', link: '/recipes/button', activeMatch: '^/recipes/', }
+      { text: 'Guides', link: '/guides/introduction', activeMatch: '^/guides/' },
+      { text: 'Recipes', link: '/recipes/button', activeMatch: '^/recipes/' }
     ],
     
     footer: {

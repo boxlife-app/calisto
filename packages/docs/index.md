@@ -16,10 +16,13 @@ hero:
 
 features:
   - title: Fully free and open source
+    icon: 🕊️
     details: All packages have MIT license, you can use Calisto in any project
   - title: Type Safety
+    icon: 🏗️
     details: Library build on top TypeScript
   - title: DX
+    icon: 📝
     details: Embrace a flexible dx, without any pain
 ---
 
