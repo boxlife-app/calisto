@@ -9,12 +9,6 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
 
     siteTitle: "Calisto",
-
-    algolia: {
-      appId: 'E2VDGRUQY3',
-      apiKey: '8dfd0f1aa677d735b609cb1d7eca1b25',
-      indexName: 'farfetched',
-    },
     
     nav: [
       { text: 'Home', link: '/' },
