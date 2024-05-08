@@ -2,13 +2,22 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Calisto UI-Kit",
-  description: "A UI-Kit for normal peoples",
+  title: 'Calisto UI-Kit',
+  description: 'A UI-Kit for normal peoples',
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
-    siteTitle: "Calisto",
+    siteTitle: 'Calisto',
+
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'VN3VY2RELI',
+        apiKey: '33c76f621285dcbcf359ef2b9dc1142e',
+        indexName: 'calisto',
+      }
+    },
     
     nav: [
       { text: 'Home', link: '/' },
