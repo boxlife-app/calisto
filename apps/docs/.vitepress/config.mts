@@ -113,8 +113,8 @@ export default defineConfig({
             text: "Introduction",
             items: [
               { text: "What is this?", link: 'wtf-is-this' },
-              { text: "Installation", link: 'installation' },
-              { text: "Intergrate with", link: 'intergrate' }
+              { text: "Getting Started", link: 'installation' },
+              // { text: "Intergrate with", link: 'intergrate' }
             ]
           }
         ]
