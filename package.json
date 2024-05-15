@@ -1,10 +1,14 @@
 {
   "name": "calisto",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "version": "1.0.0",
   "private": false,
   "devDependencies": {
-    "@boxlife/calisto": "workspace:*",
+    "@calisto/react": "workspace:*",
+    "bun-types": "^1.1.8",
     "eslint": "^8.56.0",
     "eslint-kit": "^10.11.0",
     "eslint-plugin-react-refresh": "^0.4.5",

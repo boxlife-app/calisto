@@ -1,5 +1,5 @@
 {
-  "name": "@boxlife/calisto",
+  "name": "@calisto/react",
   "version": "1.0.0",
   "main": "./dist/main.js",
   "module": "./dist/main.js",

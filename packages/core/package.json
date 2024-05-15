@@ -1,0 +1,15 @@
+{
+  "name": "@calisto/core",
+  "module": "./src",
+  "type": "module",
+  "devDependencies": {
+    "@types/deepmerge": "^2.2.0",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "deepmerge": "^4.3.1"
+  }
+}

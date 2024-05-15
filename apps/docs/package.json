@@ -1,5 +1,5 @@
 {
-  "name": "@boxlife/calisto-docs",
+  "name": "@calisto/docs",
   "private": false,
   "author": "Mikita Pitunou (https://github.com/jassix) <jassix@pm.me>",
   "dependencies": {
