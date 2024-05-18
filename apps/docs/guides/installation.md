@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started {#getting-started}
 
 To start using Calisto in your React project, simply install the library via package manager:
 

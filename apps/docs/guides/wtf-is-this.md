@@ -1,14 +1,14 @@
-# What the fuck is this?
+# What the fuck is this? {#what-is-this}
 
 ::: details
 <img src="/wtf-is-this.png" alt="drawing" width="200"/>
 :::
 
-## A Next-Generation UI Library for React
+## A Next-Generation UI Library for React {#description}
 
 Welcome to **Calisto**, the cutting-edge UI library designed specifically for React developers. Calisto leverages the power of modern CSS-in-JS techniques alongside the robust components from RadixUI to deliver a seamless and highly customizable user interface development experience.
 
-## Why Calisto?
+## Why Calisto? {#why-calisto}
 
 1. **CSS-in-JS Approach**: With Calisto, you can style your components using the latest CSS-in-JS methodologies. This approach ensures that your styles are scoped, maintainable, and dynamically adjustable based on your application state, making it easier to manage and scale your projects.
 
