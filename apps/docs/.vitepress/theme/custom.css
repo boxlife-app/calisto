@@ -4,6 +4,10 @@
     --vp-c-brand-2: rgb(220, 220, 220);
     --vp-c-brand-3: rgb(200, 200, 200);
 
+    [class*='DocSearch'] {
+        --docsearch-primary-color: rgba(255, 255, 255, 0.3);
+    }
+
     --vp-button-brand-text: black;
     --vp-button-brand-hover-bg: rgba(255, 255, 255, 0.9);
     --vp-button-brand-hover-text: black;
