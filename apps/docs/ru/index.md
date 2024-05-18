@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Компоненты
-      link: /recipes/button
+      link: /ru/recipes/button
     - theme: alt
       text: Быстрый старт
-      link: /guides/installation
+      link: /ru/guides/installation
   image:
     src: /preview.png
     alt: Calisto
