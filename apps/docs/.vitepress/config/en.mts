@@ -1,6 +1,9 @@
 import { defineConfig } from "vitepress";
 
 export const en = defineConfig({
+    lang: 'en-US',
+    description: 'A UI-Kit for normal peoples',
+
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },

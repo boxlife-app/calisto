@@ -1,13 +1,14 @@
 import { defineConfig } from 'vitepress'
-import { en } from './en.mts'
-import { ru, search as ruSeach } from './ru.mts'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  lang: 'en-US',
+export const common = defineConfig({
   title: 'Calisto',
-  description: 'A UI-Kit for normal peoples',
+ 
   appearance: 'force-dark',
+
+  lastUpdated: true,
+  cleanUrls: true,
+  metaChunk: true,
 
   sitemap: {
     hostname: 'https://calisto.boxlife.app'
@@ -23,24 +24,6 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: 'https://calisto.js.org/preview.png' }],
     ['meta', { property: 'og:url', content: 'https://calisto.js.org/' }]
   ],
-
-  lastUpdated: true,
-  cleanUrls: true,
-  metaChunk: true,
-
-  locales: {
-    root: {
-      label: 'English',
-      lang: 'en',
-      ...en
-    },
-    ru: {
-      label: 'Русский',
-      lang: 'ru',
-      link: '/ru/',
-      ...ru
-    }
-  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
