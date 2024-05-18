@@ -1,3 +1,27 @@
+:root {
+    --vp-c-brand: white;
+    --vp-c-brand-1: white;
+    --vp-c-brand-2: rgb(220, 220, 220);
+    --vp-c-brand-3: rgb(200, 200, 200);
+
+    --vp-button-brand-text: black;
+    --vp-button-brand-hover-bg: rgba(255, 255, 255, 0.9);
+    --vp-button-brand-hover-text: black;
+
+    --vp-c-brand-light: white;
+    --vp-c-brand-dark: white;
+
+    --vp-button-brand-bg: white;
+    --vp-button-brand-hover-border: white;
+    --vp-button-brand-active-border: white;
+    --vp-button-brand-border: white;
+    --vp-button-brand-active-bg: white;
+
+    .VPNavBarMenuLink {
+        color: var(--vp-c-brand-3)
+    }
+}
+
 .copyright {
     display: flex;
     justify-content: center;

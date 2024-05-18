@@ -5,6 +5,8 @@ export default defineConfig({
   title: 'Calisto UI-Kit',
   description: 'A UI-Kit for normal peoples',
 
+  head: [["script", { src: "/_vercel/insights/script.js", defer: "true" }]],
+
   lastUpdated: true,
   cleanUrls: true,
   metaChunk: true,
@@ -13,6 +15,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
 
     siteTitle: 'Calisto',
+    logo: '/logo.svg',
 
     search: {
       provider: 'algolia',
