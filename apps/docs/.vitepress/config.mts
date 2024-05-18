@@ -3,11 +3,14 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'en-US',
-  title: 'Calisto UI-Kit',
+  title: 'Calisto',
   description: 'A UI-Kit for normal peoples',
   appearance: 'force-dark',
 
-  head: [["script", { src: "/_vercel/insights/script.js", defer: "true" }]],
+  head: [
+    ["link", { rel: "icon", href: '/logo.svg', type: 'image/svg+xml' }],
+    ["script", { src: "/_vercel/insights/script.js", defer: "true" }]
+  ],
 
   lastUpdated: true,
   cleanUrls: true,
