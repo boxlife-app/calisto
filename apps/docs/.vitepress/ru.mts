@@ -18,8 +18,8 @@ export const ru = defineConfig({
         ],
           
         footer: {
-            message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2024-present Mikita Pitunou',
+            message: 'Опубликовано под лицензией MIT.',
+            copyright: '© 2024 – настоящее время, Никита Питунов',
         },
       
         sidebar: {

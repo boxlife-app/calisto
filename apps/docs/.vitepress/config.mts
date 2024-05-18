@@ -9,6 +9,10 @@ export default defineConfig({
   description: 'A UI-Kit for normal peoples',
   appearance: 'force-dark',
 
+  sitemap: {
+    hostname: 'https://calisto.boxlife.app'
+  },
+
   head: [
     ["link", { rel: "icon", href: '/favicon.svg', type: 'image/svg+xml' }],
     ["script", { src: "/_vercel/insights/script.js", defer: "true" }],
@@ -49,8 +53,7 @@ export default defineConfig({
       options: {
         appId: 'VN3VY2RELI',
         apiKey: '33c76f621285dcbcf359ef2b9dc1142e',
-        indexName: 'calisto',
-        locales: { ...ruSeach }
+        indexName: 'calisto'
       }
     },
 
