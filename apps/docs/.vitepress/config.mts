@@ -8,7 +8,7 @@ export default defineConfig({
   appearance: 'force-dark',
 
   head: [
-    ["link", { rel: "icon", href: '/logo.svg', type: 'image/svg+xml' }],
+    ["link", { rel: "icon", href: '/favicon.svg', type: 'image/svg+xml' }],
     ["script", { src: "/_vercel/insights/script.js", defer: "true" }]
   ],
 
