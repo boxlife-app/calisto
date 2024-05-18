@@ -1,15 +1,48 @@
 {
   "name": "@calisto/core",
-  "module": "./src",
+  "version": "0.1.0",
+  "author": "Mikita Pitunou (https://github.com/jassix) <jassix@pm.me>",
+  "homepage": "https://calisto.js.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boxlife-app/calisto.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "scripts": {
+    "build": "bun run build.mjs",
+    "size": "size-limit",
+    "prepublishOnly": "bun run build"
+  },
+  "dependencies": {
+    "deepmerge": "^4.3.1"
+  },
   "devDependencies": {
+    "bun-plugin-dts": "^0.2.3",
+    "@size-limit/file": "^11.1.4",
+    "size-limit": "^11.1.4",
     "@types/deepmerge": "^2.2.0",
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {
-    "deepmerge": "^4.3.1"
-  }
+  "size-limit": [
+    {
+      "path": "./dist/index.js",
+      "limit": "16.3 kB"
+    }
+  ]
 }
