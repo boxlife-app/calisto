@@ -41,7 +41,8 @@ export const common = defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/boxlife-app/calisto' }
+      { icon: 'github', link: 'https://github.com/boxlife-app/calisto' },
+      { icon: 'npm', link: 'https://www.npmjs.com/package/@calisto/core' }
     ]
   }
 })
