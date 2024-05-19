@@ -1,4 +1,5 @@
 import { IntRange, TruthKeys } from '~/types'
+import { Store } from '..'
 
 export interface CustomThemes {
   rainbow: true
@@ -61,4 +62,9 @@ export interface Theme {
   shadow: Partial<Record<Sizes | ExtendSize<2, 4>, string>>
   blur: Partial<Record<Sizes, string>>
   variable: CustomVariables
+}
+
+export interface ThemeStore {
+  $theme: Store<Themes>
+  $themes: Store<Theme[]>
 }

@@ -1,9 +1,10 @@
 import { Store } from '~/reactivity'
 import * as presets from './presets'
-import { Theme, Themes } from './types'
+import { Theme, Themes, ThemeStore } from './types'
 
-export const $theme = new Store<Themes>('dark')
-export const $themes = new Store<Theme[]>([
-  presets.darkTheme,
-  presets.lightTheme,
-])
+export const createThemeStore = (): ThemeStore => ({
+  $theme: new Store<Themes>('dark'),
+  $themes: new Store<Theme[]>([presets.darkTheme, presets.lightTheme]),
+})
+
+export const { $theme, $themes } = createThemeStore()
